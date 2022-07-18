@@ -60,7 +60,7 @@ def analyze_data():
 
 def analyze_data_reto():
     # Consulta todos los datos de la última hora, los agrupa por estación y variable
-    # Verifica que el valor maximo de la ultima hora no sea mayor al valor maximo establecido
+    # Verifica que el valor minimo de la ultima hora no sea 0
     # Si pasa esto envia una alerta.
 
     print("Calculando alertas para reto...")
